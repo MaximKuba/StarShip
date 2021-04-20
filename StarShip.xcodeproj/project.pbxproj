@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25CB3EAD695CA1A359853DEB /* Pods_StarShip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6529D5053075C7406570145 /* Pods_StarShip.framework */; };
+		8D8224BD262EC60F00633F83 /* StarShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8224BC262EC60F00633F83 /* StarShip.swift */; };
+		8D8224C0262ECAED00633F83 /* StarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8224BF262ECAED00633F83 /* StarList.swift */; };
 		8DA4111F262DAC07005B260E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4111E262DAC07005B260E /* AppDelegate.swift */; };
 		8DA41121262DAC07005B260E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA41120262DAC07005B260E /* SceneDelegate.swift */; };
-		8DA41123262DAC07005B260E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA41122262DAC07005B260E /* ViewController.swift */; };
+		8DA41123262DAC07005B260E /* ShipListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA41122262DAC07005B260E /* ShipListController.swift */; };
 		8DA41126262DAC07005B260E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA41124262DAC07005B260E /* Main.storyboard */; };
 		8DA41128262DAC09005B260E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA41127262DAC09005B260E /* Assets.xcassets */; };
 		8DA4112B262DAC09005B260E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA41129262DAC09005B260E /* LaunchScreen.storyboard */; };
+		8DA41139262DCFD6005B260E /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA41138262DCFD6005B260E /* NSObjectExtension.swift */; };
+		8DA41140262DD020005B260E /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4113F262DD020005B260E /* UIViewControllerExtension.swift */; };
+		8DA41143262DD048005B260E /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA41142262DD048005B260E /* Storyboards.swift */; };
+		8DA41147262DD19B005B260E /* ShipDescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA41146262DD19B005B260E /* ShipDescriptionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D8224BC262EC60F00633F83 /* StarShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShip.swift; sourceTree = "<group>"; };
+		8D8224BF262ECAED00633F83 /* StarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarList.swift; sourceTree = "<group>"; };
 		8DA4111B262DAC06005B260E /* StarShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA4111E262DAC07005B260E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA41120262DAC07005B260E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8DA41122262DAC07005B260E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DA41122262DAC07005B260E /* ShipListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipListController.swift; sourceTree = "<group>"; };
 		8DA41125262DAC07005B260E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DA41127262DAC09005B260E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA4112A262DAC09005B260E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA4112C262DAC09005B260E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA41138262DCFD6005B260E /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		8DA4113F262DD020005B260E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		8DA41142262DD048005B260E /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		8DA41146262DD19B005B260E /* ShipDescriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipDescriptionController.swift; sourceTree = "<group>"; };
+		9BC4DBD1DB283C63553E3793 /* Pods-StarShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarShip.release.xcconfig"; path = "Target Support Files/Pods-StarShip/Pods-StarShip.release.xcconfig"; sourceTree = "<group>"; };
+		D6529D5053075C7406570145 /* Pods_StarShip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFA1F2232C2142310C6635B /* Pods-StarShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarShip.debug.xcconfig"; path = "Target Support Files/Pods-StarShip/Pods-StarShip.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CB3EAD695CA1A359853DEB /* Pods_StarShip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		594104E774AF223A4EB977D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBFA1F2232C2142310C6635B /* Pods-StarShip.debug.xcconfig */,
+				9BC4DBD1DB283C63553E3793 /* Pods-StarShip.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8DA41112262DAC06005B260E = {
 			isa = PBXGroup;
 			children = (
 				8DA4111D262DAC06005B260E /* StarShip */,
 				8DA4111C262DAC06005B260E /* Products */,
+				594104E774AF223A4EB977D0 /* Pods */,
+				975831ED720334CD0135A3AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,61 @@
 		8DA4111D262DAC06005B260E /* StarShip */ = {
 			isa = PBXGroup;
 			children = (
-				8DA4111E262DAC07005B260E /* AppDelegate.swift */,
-				8DA41120262DAC07005B260E /* SceneDelegate.swift */,
-				8DA41122262DAC07005B260E /* ViewController.swift */,
-				8DA41124262DAC07005B260E /* Main.storyboard */,
-				8DA41127262DAC09005B260E /* Assets.xcassets */,
-				8DA41129262DAC09005B260E /* LaunchScreen.storyboard */,
+				8DA4113D262DCFED005B260E /* Extensions */,
+				8DA41133262DCCFD005B260E /* Application */,
+				8DA41122262DAC07005B260E /* ShipListController.swift */,
+				8DA41146262DD19B005B260E /* ShipDescriptionController.swift */,
+				8DA41136262DCD31005B260E /* Resources */,
 				8DA4112C262DAC09005B260E /* Info.plist */,
+				8D8224BC262EC60F00633F83 /* StarShip.swift */,
+				8D8224BF262ECAED00633F83 /* StarList.swift */,
 			);
 			path = StarShip;
+			sourceTree = "<group>";
+		};
+		8DA41133262DCCFD005B260E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4111E262DAC07005B260E /* AppDelegate.swift */,
+				8DA41120262DAC07005B260E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8DA41135262DCD16005B260E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8DA41124262DAC07005B260E /* Main.storyboard */,
+				8DA41129262DAC09005B260E /* LaunchScreen.storyboard */,
+				8DA41142262DD048005B260E /* Storyboards.swift */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8DA41136262DCD31005B260E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DA41127262DAC09005B260E /* Assets.xcassets */,
+				8DA41135262DCD16005B260E /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8DA4113D262DCFED005B260E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8DA41138262DCFD6005B260E /* NSObjectExtension.swift */,
+				8DA4113F262DD020005B260E /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		975831ED720334CD0135A3AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6529D5053075C7406570145 /* Pods_StarShip.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DA4112F262DAC09005B260E /* Build configuration list for PBXNativeTarget "StarShip" */;
 			buildPhases = (
+				E0BF503E97BC6983DC05BBD5 /* [CP] Check Pods Manifest.lock */,
 				8DA41117262DAC06005B260E /* Sources */,
 				8DA41118262DAC06005B260E /* Frameworks */,
 				8DA41119262DAC06005B260E /* Resources */,
+				C9E5A7CF5D5243F8ADE45529 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +209,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9E5A7CF5D5243F8ADE45529 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarShip/Pods-StarShip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarShip/Pods-StarShip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarShip/Pods-StarShip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BF503E97BC6983DC05BBD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarShip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DA41117262DAC06005B260E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA41123262DAC07005B260E /* ViewController.swift in Sources */,
+				8DA41143262DD048005B260E /* Storyboards.swift in Sources */,
+				8DA41123262DAC07005B260E /* ShipListController.swift in Sources */,
 				8DA4111F262DAC07005B260E /* AppDelegate.swift in Sources */,
+				8D8224C0262ECAED00633F83 /* StarList.swift in Sources */,
+				8DA41140262DD020005B260E /* UIViewControllerExtension.swift in Sources */,
+				8DA41147262DD19B005B260E /* ShipDescriptionController.swift in Sources */,
 				8DA41121262DAC07005B260E /* SceneDelegate.swift in Sources */,
+				8DA41139262DCFD6005B260E /* NSObjectExtension.swift in Sources */,
+				8D8224BD262EC60F00633F83 /* StarShip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +408,7 @@
 		};
 		8DA41130262DAC09005B260E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFA1F2232C2142310C6635B /* Pods-StarShip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +428,7 @@
 		};
 		8DA41131262DAC09005B260E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC4DBD1DB283C63553E3793 /* Pods-StarShip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
