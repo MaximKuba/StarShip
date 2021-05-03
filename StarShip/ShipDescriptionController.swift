@@ -9,7 +9,7 @@ import UIKit
 
 class ShipDescriptionController: UITableViewController {
   
-  var navigationTitle: String? = "Ship description"
+  var navigationTitle: String = "Ship description"
   //var label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 40))
   var starShip: StarShip?
   
@@ -39,9 +39,7 @@ class ShipDescriptionController: UITableViewController {
     //    self.label.adjustsFontSizeToFitWidth = true
     //self.navigationItem.titleView = label;
     
-    if let name = starShip?.name {
-      navigationTitle = name
-    }
+    
     self.navigationItem.title = navigationTitle
     self.navigationController?.navigationBar.barTintColor = .gray
     self.navigationController?.navigationBar.prefersLargeTitles = true
