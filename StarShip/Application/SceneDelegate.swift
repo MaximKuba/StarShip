@@ -22,8 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.windowScene = windowScene
     
-    let splitView = UISplitViewController(style: .doubleColumn)
-    
+    let splitView = UISplitViewController()
     let shipList = ShipListController()
     let shipListNavigation = UINavigationController(rootViewController: shipList)
     
@@ -31,8 +30,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   
     let shipDescriptionNavigation = UINavigationController(rootViewController: shipDescription)
     
-    splitView.setViewController(shipListNavigation, for: .primary)
-    splitView.setViewController(shipDescriptionNavigation, for: .secondary)
+
+    splitView.viewControllers = [shipListNavigation,shipDescriptionNavigation]
+    splitView.preferredDisplayMode = .oneBesideSecondary
+    splitView.delegate  = self
     
     
     window?.rootViewController = splitView

@@ -21,7 +21,7 @@ struct StarShip: Codable, Hashable {
   let consumables: String
   let hyperdriveRating: String //
   let mglt: String //
-  let starshipClass: String //
+  let starShipClass: String //
 
   enum StarShipKeys: String, CodingKey {
     
@@ -31,7 +31,7 @@ struct StarShip: Codable, Hashable {
     case cargoCapacity = "cargo_capacity"
     case hyperdriveRating =  "hyperdrive_rating"
     case mglt = "MGLT"
-    case starshipClass = "starship_class"
+    case starShipClass = "starship_class"
   }
 
 
@@ -51,7 +51,7 @@ struct StarShip: Codable, Hashable {
     consumables = try container.decode(String.self, forKey: .consumables)
     hyperdriveRating = try container.decode(String.self, forKey: .hyperdriveRating)
     mglt = try container.decode(String.self, forKey: .mglt)
-    starshipClass = try container.decode(String.self, forKey: .starshipClass)
+    starShipClass = try container.decode(String.self, forKey: .starShipClass)
   }
   
   func encode(to encoder: Encoder) throws {
@@ -70,7 +70,7 @@ struct StarShip: Codable, Hashable {
     try container.encode(StarShipKeys.consumables.rawValue, forKey: .consumables)
     try container.encode(StarShipKeys.hyperdriveRating.rawValue, forKey: .hyperdriveRating)
     try container.encode(StarShipKeys.mglt.rawValue, forKey: .mglt)
-    try container.encode(StarShipKeys.starshipClass.rawValue, forKey: .starshipClass)
+    try container.encode(StarShipKeys.starShipClass.rawValue, forKey: .starShipClass)
     
   }
 }

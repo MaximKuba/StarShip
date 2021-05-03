@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    
     // Override point for customization after application launch.
     return true
   }
@@ -32,11 +33,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
 
-}
-extension AppDelegate: UISplitViewControllerDelegate {
-
-    func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
-        return true
-    }
 }
 

@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		25CB3EAD695CA1A359853DEB /* Pods_StarShip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6529D5053075C7406570145 /* Pods_StarShip.framework */; };
+		8D5623C3263C4AA90047E43B /* StarJediHollow-A4lL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5623C0263C4AA90047E43B /* StarJediHollow-A4lL.ttf */; };
+		8D5623C4263C4AA90047E43B /* StarJedi-DGRW.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5623C1263C4AA90047E43B /* StarJedi-DGRW.ttf */; };
+		8D5623C5263C4AA90047E43B /* StarJediRounded-jW3R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5623C2263C4AA90047E43B /* StarJediRounded-jW3R.ttf */; };
 		8D8224BD262EC60F00633F83 /* StarShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8224BC262EC60F00633F83 /* StarShip.swift */; };
 		8D8224C0262ECAED00633F83 /* StarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8224BF262ECAED00633F83 /* StarList.swift */; };
 		8DA4111F262DAC07005B260E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4111E262DAC07005B260E /* AppDelegate.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D5623C0263C4AA90047E43B /* StarJediHollow-A4lL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "StarJediHollow-A4lL.ttf"; sourceTree = "<group>"; };
+		8D5623C1263C4AA90047E43B /* StarJedi-DGRW.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "StarJedi-DGRW.ttf"; sourceTree = "<group>"; };
+		8D5623C2263C4AA90047E43B /* StarJediRounded-jW3R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "StarJediRounded-jW3R.ttf"; sourceTree = "<group>"; };
 		8D8224BC262EC60F00633F83 /* StarShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShip.swift; sourceTree = "<group>"; };
 		8D8224BF262ECAED00633F83 /* StarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarList.swift; sourceTree = "<group>"; };
 		8DA4111B262DAC06005B260E /* StarShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,8 +66,17 @@
 				FBFA1F2232C2142310C6635B /* Pods-StarShip.debug.xcconfig */,
 				9BC4DBD1DB283C63553E3793 /* Pods-StarShip.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D5623BF263C4A950047E43B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D5623C1263C4AA90047E43B /* StarJedi-DGRW.ttf */,
+				8D5623C0263C4AA90047E43B /* StarJediHollow-A4lL.ttf */,
+				8D5623C2263C4AA90047E43B /* StarJediRounded-jW3R.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		8DA41112262DAC06005B260E = {
@@ -85,6 +100,7 @@
 		8DA4111D262DAC06005B260E /* StarShip */ = {
 			isa = PBXGroup;
 			children = (
+				8D5623BF263C4A950047E43B /* Fonts */,
 				8DA4113D262DCFED005B260E /* Extensions */,
 				8DA41133262DCCFD005B260E /* Application */,
 				8DA41122262DAC07005B260E /* ShipListController.swift */,
@@ -201,8 +217,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5623C3263C4AA90047E43B /* StarJediHollow-A4lL.ttf in Resources */,
 				8DA4112B262DAC09005B260E /* LaunchScreen.storyboard in Resources */,
 				8DA41128262DAC09005B260E /* Assets.xcassets in Resources */,
+				8D5623C4263C4AA90047E43B /* StarJedi-DGRW.ttf in Resources */,
+				8D5623C5263C4AA90047E43B /* StarJediRounded-jW3R.ttf in Resources */,
 				8DA41126262DAC07005B260E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
