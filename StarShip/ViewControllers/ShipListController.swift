@@ -51,7 +51,7 @@ class ShipListController: UITableViewController {
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    var cell = tableView.dequeueReusableCell(withIdentifier: "ShipListCell")!
+    var cell = tableView.dequeueReusableCell(withIdentifier: "ShipListCell", for: indexPath)
     setupCell(cell: &cell, name: shipList[indexPath.row].name)
     return cell
   }

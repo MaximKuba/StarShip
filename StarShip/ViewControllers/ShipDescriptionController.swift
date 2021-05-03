@@ -78,7 +78,7 @@ class ShipDescriptionController: UITableViewController {
       text = "Unknown"
     }
     
-    var cell = tableView.dequeueReusableCell(withIdentifier: "ShipDescriptionCell")!
+    var cell = tableView.dequeueReusableCell(withIdentifier: "ShipDescriptionCell", for: indexPath)
     setupCell(cell: &cell, text: text)
     return cell
   }
@@ -139,10 +139,8 @@ class ShipDescriptionController: UITableViewController {
     sectionLabel.text = self.tableView(tableView, titleForHeaderInSection: section)
     sectionLabel.textColor = .white
     
-    
     let headerView = UIView()
     headerView.addSubview(sectionLabel)
-    
     return headerView
     
   }
