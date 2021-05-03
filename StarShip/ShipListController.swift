@@ -55,6 +55,23 @@ class ShipListController: UITableViewController {
     getData(link: "http://swapi.dev/api/starships")
   }
   
+  func presentAlertForInternet(withMessage message: String, completion: (() -> Void)?){
+    
+    DispatchQueue.main.async {
+      
+      let alertController = UIAlertController(title: "Something went wrong",
+                                              message: message,
+                                              preferredStyle: .alert)
+      let alertAction = UIAlertAction(title: "Refresh",
+                                      style: .default) { _ in completion?() }
+      alertController.addAction(alertAction)
+    
+      self.present(alertController,
+                   animated: true,
+                   completion: nil)
+    }
+  }
+  
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return shipList.count
   }
@@ -111,7 +128,10 @@ class ShipListController: UITableViewController {
         }
       case .failure(let error):
         print(error.localizedDescription)
-        // add alert
+        self?.presentAlertForInternet(withMessage: "It seems like we have some problems, check your internet connection and try again") {
+          self?.getData(link: link)
+        }
+        
       }
     }
   }
