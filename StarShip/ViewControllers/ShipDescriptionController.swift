@@ -9,6 +9,8 @@ import UIKit
 
 class ShipDescriptionController: UITableViewController {
   
+  let numberOfSections = 13
+  
   var navigationTitle: String = "Ship description"
   var starShip: StarShip?
   
@@ -39,7 +41,7 @@ class ShipDescriptionController: UITableViewController {
     
   }
   override func numberOfSections(in tableView: UITableView) -> Int {
-    return 13
+    return numberOfSections
   }
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return 1
@@ -47,7 +49,7 @@ class ShipDescriptionController: UITableViewController {
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
     var text = "Unknown"
-    switch indexPath.row {
+    switch indexPath.section {
     case 0:
       text = starShip?.name ?? "Unknown"
     case 1:
